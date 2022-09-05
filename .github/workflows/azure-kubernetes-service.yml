@@ -2,7 +2,7 @@ name: Build and deploy an app to AKS
 "on":
     push:
         branches:
-            - master
+            - main
     workflow_dispatch: null
 env:
     AZURE_CONTAINER_REGISTRY: skpvtregistry
